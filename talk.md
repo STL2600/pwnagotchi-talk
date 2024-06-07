@@ -3,7 +3,7 @@
 %![](static/qrcode.png)<br/>Talk: [${TALK_URL}](${TALK_URL})<br/>Repo: [${REPO_URL}](${REPO_URL})
 
 
-### What is a Pwnagotchi?
+## What is a Pwnagotchi?
 
 <img src="static/_resources/99e3f9423c38cacf11215a85eb5ca496.png" alt="99e3f9423c38cacf11215a85eb5ca496.png" width="391" height="293">
 
@@ -19,7 +19,7 @@ Because everyone knows good free range organic Wi-Fi is low calorie and part of 
 
 :::
 
-### What is a Pwnagotchi, REALLY?
+## What is a Pwnagotchi, REALLY?
 
 A pocket sized tool to help automate auditing Wi-Fi.
 
@@ -37,7 +37,7 @@ When EvilSocket shared his efforts online, a community quickly sprung up around 
 
 :::
 
-### What does a Pwnagotchi do?
+## What does a Pwnagotchi do?
 
 - Sniffs surrounding Wi-Fi
 - Captures WPA handshake packets
@@ -56,7 +56,7 @@ This isn't the generative spicy autocorrect that all the tech bros have a hard-o
 
 :::
 
-### Does it do anything else?
+## Does it do anything else?
 
 - PwnGrid Network
 - Interaction with other Pwnagotchis
@@ -69,7 +69,7 @@ It also will talk with other Pwnagotchis, allowing you to distribute the work.
 
 :::
 
-### How do I get my own Pwnagotchi?
+## How do I get my own Pwnagotchi?
 
 - Raspberry Pi
 - Micro SD Card
@@ -95,7 +95,7 @@ Now if your Pi doesn't support Wi-Fi on the 5 GHz band, such as the Pi Zero, you
 
 :::
 
-### My Pwnagotchi's Hardware
+## My Pwnagotchi's Hardware
 
 - Raspberry Pi Zero 2W
 - Samsung Evo Select/Plus
@@ -122,7 +122,7 @@ I didn't see a real risk, as I'm not storing any sensitive data on this device a
 
 :::
 
-### My Pwnagotchi's Hardware
+## My Pwnagotchi's Hardware
 
 <img src="static/_resources/e002c9269af7104082ad7a3b80a38362.png" alt="e002c9269af7104082ad7a3b80a38362.png" width="725" height="496">
 
@@ -138,7 +138,7 @@ You can also get the kit with a Pi Zero if you can't be bothered by a trip to Mi
 
 :::
 
-### Pwnagotchi Software
+## Pwnagotchi Software
 
 - Raspbian Base
 - Nexmon for monitoring
@@ -151,7 +151,7 @@ Notes go here
 
 :::
 
-### Nexmon
+## Nexmon
 
 Enables monitoring mode on broadcom chipsets
 
@@ -165,7 +165,7 @@ It's not normally part of Raspbian, so it had to be added to the OS image.
 
 :::
 
-### Bettercap
+## Bettercap
 
 - "Swiss Army Knife" for various wireless attacks
 - Wi-Fi
@@ -188,7 +188,7 @@ However if you set the pwnagotchi in manual mode (we'll discuss modes later) you
 
 :::
 
-### Bettercap Attacks
+## Bettercap Attacks
 
 - Deauth
 - Handshake Capture
@@ -204,7 +204,7 @@ The two main attacks conducted by Bettercap are, as previously mentioned:
 
 :::
 
-### Deauthing
+## Deauthing
 
 - Denial-of-service attack
 - Part of the 802.11 protocol
@@ -219,7 +219,7 @@ You basically a signal that says "I'm disconnecting from the network now".
 
 :::
 
-### Deauthing
+## Deauthing
 
 <img src="static/_resources/632620805f29b0657e6a3430d7efdb38.png" alt="632620805f29b0657e6a3430d7efdb38.png" width="375" height="546">
 
@@ -233,7 +233,7 @@ So an attacker can easily send a deauth packet while spoofing a target's MAC add
 
 :::
 
-### Dauthing
+## Dauthing
 
 ![d7a77b39aa7d436429ed8b4d4327a3e4.png](static/_resources/d7a77b39aa7d436429ed8b4d4327a3e4.png)
 
@@ -250,7 +250,7 @@ The Federal Communications Commission has fined hotels and other companies for l
 
 :::
 
-### Handshake Capturing
+## Handshake Capturing
 
 <img src="static/_resources/a10a0bcb513fe41c1cb8292886da40e3.png" alt="a10a0bcb513fe41c1cb8292886da40e3.png" width="446" height="504">
 
@@ -272,7 +272,7 @@ This of course very generalized and lacking all the math involved.
 
 :::
 
-### Client-less PMKID Attack
+## Client-less PMKID Attack
 
 - Handshakes are sometimes captured without deauthing
 - Sometimes a partial handshake is enough
@@ -296,7 +296,7 @@ But the PMK Name and the MACs are constants, so this hash can be used to derive 
 
 :::
 
-### Pwnagotchi Services
+## Pwnagotchi Services
 
 - Provides the UI
 - Manages Bettercap attacks
@@ -317,7 +317,7 @@ And when enabled, is driven by the AI.
 
 :::
 
-### OS Images
+## OS Images
 
 - Original EvilSocket Image
 - JayoFelony Image
@@ -354,7 +354,7 @@ I dabbled a bit with Aluminium Ice's, but it just wasn't as simple to get runnin
 
 :::
 
-### How to use the Pwnagotchi
+## How to use the Pwnagotchi
 
 - Modes
 - Moods
@@ -374,7 +374,7 @@ But there's a lot more going on behind the scenes than at first glance.
 
 :::
 
-### Pwnagotchi's Face
+## Pwnagotchi's Face
 
 <img src="static/_resources/78035c6bdf480bc8a2ddd6be5dfcb28d.png" alt="78035c6bdf480bc8a2ddd6be5dfcb28d.png" width="536" height="255">
 
@@ -398,7 +398,7 @@ And to the far right we see what mode the Pwnagotchi is currently operating in.
 
 :::
 
-### Available Operating Modes
+## Available Operating Modes
 
 - Manual
 - Auto
@@ -426,7 +426,7 @@ Once the neural network has finished loading and is function, it will begin to t
 
 :::
 
-### Moods
+## Moods
 
 ```
 (⇀‿‿↼) sleeping
@@ -450,7 +450,7 @@ When this happens, the best way to make it happy again is to take it for a walk 
 
 :::
 
-### The AI
+## The AI
 
 - A2CS - Advantage Actor Critic
 - Optimizes parameters
@@ -463,7 +463,7 @@ As the Pwnagotchi continously runs, the settings are optimized over time based o
 
 :::
 
-### Advantage Actor Critic
+## Advantage Actor Critic
 
 - The Actor
 - The Critic
@@ -493,26 +493,26 @@ Pwnagotchi is using a python library called Stable Baselines, which is a re-impl
 
 :::
 
-### Pwnagotchi's Main Loop
+## Pwnagotchi's Main Loop
 
 ```
-### main loop
+## main loop
 while True:
-    ### ask bettercap for all visible access points and their clients
+    ## ask bettercap for all visible access points and their clients
     aps = get_all_visible_access_points()
-    ### loop each AP
+    ## loop each AP
     for ap in aps:
-        ### send an association frame in order to grab the PMKID
+        ## send an association frame in order to grab the PMKID
         send_assoc(ap)
-        ### loop each client station of the AP
+        ## loop each client station of the AP
         for client in ap.clients:
-            ### deauthenticate the client to get its half or full handshake
+            ## deauthenticate the client to get its half or full handshake
             deauthenticate(client)
 
     wait_for_loot()
 ```
 
-### What Gets Tweaked
+## What Gets Tweaked
 
 - Nearly 20 different "Personality" settings
 - Wait Times
@@ -533,26 +533,26 @@ Everything from Wait times, to time outs, signal strenths, etc.
 
 :::
 
-### The Reward Function
+## The Reward Function
 
 ```
-### state contains the information of the last epoch
-### epoch_n is the number of the last epoch
-tot_epochs = epoch_n + 1e-20 ### 1e-20 is added to avoid a division by 0
+## state contains the information of the last epoch
+## epoch_n is the number of the last epoch
+tot_epochs = epoch_n + 1e-20 ## 1e-20 is added to avoid a division by 0
 tot_interactions = max(state['num_deauths'] + state['num_associations'], state['num_handshakes']) + 1e-20
 tot_channels = wifi.NumChannels
 
-### ideally, for each interaction we would have an handshake
+## ideally, for each interaction we would have an handshake
 h = state['num_handshakes'] / tot_interactions
-### small positive rewards the more active epochs we have
+## small positive rewards the more active epochs we have
 a = .2 * (state['active_for_epochs'] / tot_epochs)
-### make sure we keep hopping on the widest channel spectrum
+## make sure we keep hopping on the widest channel spectrum
 c = .1 * (state['num_hops'] / tot_channels)
-### small negative reward if we don't see aps for a while
+## small negative reward if we don't see aps for a while
 b = -.3 * (state['blind_for_epochs'] / tot_epochs)
-### small negative reward if we interact with things that are not in range anymore
+## small negative reward if we interact with things that are not in range anymore
 m = -.3 * (state['missed_interactions'] / tot_interactions)
-### small negative reward for inactive epochs
+## small negative reward for inactive epochs
 i = -.2 * (state['inactive_for_epochs'] / tot_epochs)
 
 reward = h + a + c + b + i + m
@@ -566,7 +566,7 @@ Basically the more Access Points seen and handshakes captured, the higher the sc
 
 :::
 
-### Making Friends
+## Making Friends
 
 ![dfa90d9ac3038909993b1ab8b0a78302.png](static/_resources/dfa90d9ac3038909993b1ab8b0a78302.png)
 
@@ -595,7 +595,7 @@ So if you happen to be conducting an audit of a campus wide Wi-Fi network, havin
 
 :::
 
-### PwnGrid
+## PwnGrid
 
 - Ranking
 - Messaging
@@ -614,7 +614,7 @@ Grid functionality can also be disabled on your Pwnagotchi, if you don't want to
 
 :::
 
-### PwnGrid Rankings
+## PwnGrid Rankings
 
 ![d4c2cbc2c3bada02a6b2224d5e5f74bd.png](static/_resources/d4c2cbc2c3bada02a6b2224d5e5f74bd.png)
 
@@ -626,7 +626,7 @@ This provides a way to judge how many networks a Pwnagotchi has "pwned" without 
 
 :::
 
-### PwnMail
+## PwnMail
 
 <img src="static/_resources/bd2a655754cd147cf8e3f4f3056ac76a.png" alt="bd2a655754cd147cf8e3f4f3056ac76a.png" width="725" height="352">
 
@@ -648,7 +648,7 @@ If everyone is interested, we'll see how that's done in the Demo
 
 :::
 
-### Cracking Wi-Fi
+## Cracking Wi-Fi
 
 - What to do with Handshakes
 - John the Ripper or Hashcat
@@ -672,7 +672,7 @@ During the demo we'll be using John because that's all my laptop can handle.
 
 :::
 
-### Cracking Wi-Fi Online
+## Cracking Wi-Fi Online
 
 - https://banthex.de/
 - https://www.onlinehashcrack.com/
@@ -688,15 +688,15 @@ There are also plugins that will automatically load your handshakes to these ser
 
 :::
 
-### Documentation Sources
+## Documentation Sources
 
 - [Pwnagotchi.ai - Original Wiki](https://pwnagotchi.ai)
 - [Pwnagotchi.org - New Wiki](https://pwnagotchi.org)
 - [Pwnagotchi Sub-Reddit](https://www.reddit.com/r/pwnagotchi/)
 
-### Questions?
+## Questions?
 
-### Demo
+## Demo
 
 ::: notes
 

@@ -5,7 +5,7 @@
 
 # What is a Pwnagotchi?
 
-<img src="_resources/99e3f9423c38cacf11215a85eb5ca496.png" alt="99e3f9423c38cacf11215a85eb5ca496.png" width="391" height="293">
+<img src="static/_resources/99e3f9423c38cacf11215a85eb5ca496.png" alt="99e3f9423c38cacf11215a85eb5ca496.png" width="391" height="293">
 
 A virtual pet that eats Wi-Fi handshakes.
 
@@ -124,7 +124,7 @@ I didn't see a real risk, as I'm not storing any sensitive data on this device a
 
 # My Pwnagotchi's Hardware
 
-<img src="_resources/e002c9269af7104082ad7a3b80a38362.png" alt="e002c9269af7104082ad7a3b80a38362.png" width="725" height="496">
+<img src="static/_resources/e002c9269af7104082ad7a3b80a38362.png" alt="e002c9269af7104082ad7a3b80a38362.png" width="725" height="496">
 
 ::: notes
 
@@ -221,7 +221,7 @@ You basically a signal that says "I'm disconnecting from the network now".
 
 # Deauthing
 
-<img src="_resources/632620805f29b0657e6a3430d7efdb38.png" alt="632620805f29b0657e6a3430d7efdb38.png" width="375" height="546">
+<img src="static/_resources/632620805f29b0657e6a3430d7efdb38.png" alt="632620805f29b0657e6a3430d7efdb38.png" width="375" height="546">
 
 ::: notes
 
@@ -235,7 +235,7 @@ So an attacker can easily send a deauth packet while spoofing a target's MAC add
 
 # Dauthing
 
-![d7a77b39aa7d436429ed8b4d4327a3e4.png](_resources/d7a77b39aa7d436429ed8b4d4327a3e4.png)
+![d7a77b39aa7d436429ed8b4d4327a3e4.png](static/_resources/d7a77b39aa7d436429ed8b4d4327a3e4.png)
 
 ::: notes
 
@@ -252,7 +252,7 @@ The Federal Communications Commission has fined hotels and other companies for l
 
 # Handshake Capturing
 
-<img src="_resources/a10a0bcb513fe41c1cb8292886da40e3.png" alt="a10a0bcb513fe41c1cb8292886da40e3.png" width="446" height="504">
+<img src="static/_resources/a10a0bcb513fe41c1cb8292886da40e3.png" alt="a10a0bcb513fe41c1cb8292886da40e3.png" width="446" height="504">
 
 ::: notes
 
@@ -376,7 +376,7 @@ But there's a lot more going on behind the scenes than at first glance.
 
 # Pwnagotchi's Face
 
-<img src="_resources/78035c6bdf480bc8a2ddd6be5dfcb28d.png" alt="78035c6bdf480bc8a2ddd6be5dfcb28d.png" width="536" height="255">
+<img src="static/_resources/78035c6bdf480bc8a2ddd6be5dfcb28d.png" alt="78035c6bdf480bc8a2ddd6be5dfcb28d.png" width="536" height="255">
 
 ::: notes
 
@@ -568,7 +568,7 @@ Basically the more Access Points seen and handshakes captured, the higher the sc
 
 # Making Friends
 
-![dfa90d9ac3038909993b1ab8b0a78302.png](_resources/dfa90d9ac3038909993b1ab8b0a78302.png)
+![dfa90d9ac3038909993b1ab8b0a78302.png](static/_resources/dfa90d9ac3038909993b1ab8b0a78302.png)
 
 ::: notes
 
@@ -616,7 +616,7 @@ Grid functionality can also be disabled on your Pwnagotchi, if you don't want to
 
 # PwnGrid Rankings
 
-![d4c2cbc2c3bada02a6b2224d5e5f74bd.png](_resources/d4c2cbc2c3bada02a6b2224d5e5f74bd.png)
+![d4c2cbc2c3bada02a6b2224d5e5f74bd.png](static/_resources/d4c2cbc2c3bada02a6b2224d5e5f74bd.png)
 
 ::: notes
 
@@ -628,7 +628,7 @@ This provides a way to judge how many networks a Pwnagotchi has "pwned" without 
 
 # PwnMail
 
-<img src="_resources/bd2a655754cd147cf8e3f4f3056ac76a.png" alt="bd2a655754cd147cf8e3f4f3056ac76a.png" width="725" height="352">
+<img src="static/_resources/bd2a655754cd147cf8e3f4f3056ac76a.png" alt="bd2a655754cd147cf8e3f4f3056ac76a.png" width="725" height="352">
 
 Sending End-to-End Encrypted Messages
 

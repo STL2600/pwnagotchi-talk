@@ -2,6 +2,7 @@
 % Joe Cathell <kamikazejoe@gmail.com>
 %![](static/qrcode.png)<br/>Talk: [${TALK_URL}](${TALK_URL})<br/>Repo: [${REPO_URL}](${REPO_URL})
 
+
 # What is a Pwnagotchi?
 
 <img src="../../_resources/99e3f9423c38cacf11215a85eb5ca496.png" alt="99e3f9423c38cacf11215a85eb5ca496.png" width="391" height="293">
